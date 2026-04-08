@@ -8,7 +8,7 @@
 #   bash 02_step2.sh [--chr CHR]   # run a single chromosome (for testing)
 #   bash 02_step2.sh               # run all chromosomes 1-22
 #
-# Outputs uploaded to ${OUTPUT_DIR}/step2/:
+# Outputs uploaded to ${OUTPUT_DIR}/:
 #   step2_chr{CHR}_AnyPE.regenie.gz  (and for other phenotypes)
 
 set -euo pipefail
