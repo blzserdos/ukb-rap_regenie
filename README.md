@@ -16,6 +16,11 @@ The scripts are hard coded for binary traits for now.
 | `03_collect_results.sh` | Run locally after step 2. Downloads and merges per-chromosome results into one file per phenotype in `results/`. |
 | `test_subset.sh` | Test pipeline on chr21+22 with N=2000 random participants. Two chained SAK jobs: plink2 QC (Job 1) + regenie step 1 & step 2 (Job 2). |
 
+## Requirements
+
+- [dx CLI](https://documentation.dnanexus.com/downloads) logged into the RAP project (`dx login`)
+- plink, plink2 and regenie are available inside the SAK container (no local install needed)
+
 ## Pipeline order
 
 ```
