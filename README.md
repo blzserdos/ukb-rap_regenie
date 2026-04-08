@@ -19,7 +19,7 @@ The scripts are hard coded for binary traits for now.
 ## Pipeline order
 
 ```
-config.sh (sourced by all)
+(config.sh - sourced by all)
     ↓
 00_prep_genotypes.sh   — array genotype QC
     ↓
