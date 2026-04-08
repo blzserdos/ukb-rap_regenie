@@ -20,7 +20,8 @@ OUTPUT_DIR="${PROJECT_ROOT}/regenie_output"
 
 # --- Phenotype / covariate file ---
 # Upload locally with: dx upload psych_exp_phe --path ${INPUT_DIR}/
-PHENO_FILE="${INPUT_DIR}/psych_exp_phe"
+# replace psych_exp_phe with your own phenotype file
+PHENO_FILE="${INPUT_DIR}/psych_exp_phe" 
 
 # Columns in psych_exp_phe: FID IID AnyPE DistressingPE MultiplePE sex age pc1..pc20
 PHENO_COLS="AnyPE"  # AnyPE,DistressingPE,MultiplePE
