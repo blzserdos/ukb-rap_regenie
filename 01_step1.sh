@@ -7,7 +7,7 @@
 # Usage (from local machine with dx CLI logged in):
 #   bash 01_step1.sh
 #
-# Output uploaded to ${OUTPUT_DIR}/step1/:
+# Output uploaded to ${OUTPUT_DIR}/:
 #   step1_output_pred.list
 #   step1_output_AnyPE_1.loco.gz  (and for other phenotypes)
 
